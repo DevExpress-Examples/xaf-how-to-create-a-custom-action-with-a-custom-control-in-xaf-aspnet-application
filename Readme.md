@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [MyProcessActionContainerHolderController.cs](./CS/Solution28.Module.Web/Controllers/MyProcessActionContainerHolderController.cs) (VB: [MyProcessActionContainerHolderController.vb](./VB/Solution28.Module.Web/Controllers/MyProcessActionContainerHolderController.vb))
+* [ParametrizedRangeActionMenuActionItem.cs](./CS/Solution28.Module.Web/ParametrizedRangeActionMenuActionItem.cs) (VB: [ParametrizedRangeActionMenuActionItem.vb](./VB/Solution28.Module.Web/ParametrizedRangeActionMenuActionItem.vb))
+<!-- default file list end -->
 # How to create a custom Action with a custom control in XAF ASP.NET application
 
 
