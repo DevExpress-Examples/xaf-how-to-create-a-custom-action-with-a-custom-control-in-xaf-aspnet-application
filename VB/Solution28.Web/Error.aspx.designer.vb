@@ -7,200 +7,194 @@
 '     the code is regenerated.
 ' </auto-generated>
 '------------------------------------------------------------------------------
+Public Partial Class ErrorPage
 
+    ''' <summary>
+    ''' Head1 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected Head1 As Global.System.Web.UI.HtmlControls.HtmlHead
 
+    ''' <summary>
+    ''' form1 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
+    ''' <summary>
+    ''' ApplicationTitle control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ApplicationTitle As Global.System.Web.UI.WebControls.Literal
 
-Imports Microsoft.VisualBasic
-Imports System
-Partial Public Class ErrorPage
+    ''' <summary>
+    ''' InfoMessagesPanel control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected InfoMessagesPanel As Global.System.Web.UI.WebControls.Literal
 
-	''' <summary>
-	''' Head1 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected Head1 As Global.System.Web.UI.HtmlControls.HtmlHead
+    ''' <summary>
+    ''' Table1 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected Table1 As Global.System.Web.UI.WebControls.Table
 
-	''' <summary>
-	''' form1 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected form1 As Global.System.Web.UI.HtmlControls.HtmlForm
+    ''' <summary>
+    ''' TableRow2 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected TableRow2 As Global.System.Web.UI.WebControls.TableRow
 
-	''' <summary>
-	''' ApplicationTitle control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ApplicationTitle As Global.System.Web.UI.WebControls.Literal
+    ''' <summary>
+    ''' ViewSite control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ViewSite As Global.System.Web.UI.WebControls.TableCell
 
-	''' <summary>
-	''' InfoMessagesPanel control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected InfoMessagesPanel As Global.System.Web.UI.WebControls.Literal
+    ''' <summary>
+    ''' ErrorTitleLiteral control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ErrorTitleLiteral As Global.System.Web.UI.WebControls.Literal
 
-	''' <summary>
-	''' Table1 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected Table1 As Global.System.Web.UI.WebControls.Table
+    ''' <summary>
+    ''' ErrorPanel control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ErrorPanel As Global.System.Web.UI.WebControls.Panel
 
-	''' <summary>
-	''' TableRow2 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected TableRow2 As Global.System.Web.UI.WebControls.TableRow
+    ''' <summary>
+    ''' ReportResult control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ReportResult As Global.System.Web.UI.WebControls.PlaceHolder
 
-	''' <summary>
-	''' ViewSite control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ViewSite As Global.System.Web.UI.WebControls.TableCell
+    ''' <summary>
+    ''' ApologizeMessage control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ApologizeMessage As Global.System.Web.UI.WebControls.PlaceHolder
 
-	''' <summary>
-	''' ErrorTitleLiteral control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ErrorTitleLiteral As Global.System.Web.UI.WebControls.Literal
+    ''' <summary>
+    ''' RequestUrl control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected RequestUrl As Global.System.Web.UI.WebControls.HyperLink
 
-	''' <summary>
-	''' ErrorPanel control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ErrorPanel As Global.System.Web.UI.WebControls.Panel
+    ''' <summary>
+    ''' HyperLink1 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
 
-	''' <summary>
-	''' ReportResult control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ReportResult As Global.System.Web.UI.WebControls.PlaceHolder
+    ''' <summary>
+    ''' LiteralReturn control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected LiteralReturn As Global.System.Web.UI.WebControls.Literal
 
-	''' <summary>
-	''' ApologizeMessage control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ApologizeMessage As Global.System.Web.UI.WebControls.PlaceHolder
+    ''' <summary>
+    ''' HyperLinkReturn control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected HyperLinkReturn As Global.System.Web.UI.WebControls.HyperLink
 
-	''' <summary>
-	''' RequestUrl control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected RequestUrl As Global.System.Web.UI.WebControls.HyperLink
+    ''' <summary>
+    ''' RequestUrl2 control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected RequestUrl2 As Global.System.Web.UI.WebControls.HyperLink
 
-	''' <summary>
-	''' HyperLink1 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+    ''' <summary>
+    ''' Details control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected Details As Global.System.Web.UI.WebControls.Panel
 
-	''' <summary>
-	''' LiteralReturn control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected LiteralReturn As Global.System.Web.UI.WebControls.Literal
+    ''' <summary>
+    ''' DetailsText control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected DetailsText As Global.System.Web.UI.WebControls.Literal
 
-	''' <summary>
-	''' HyperLinkReturn control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected HyperLinkReturn As Global.System.Web.UI.WebControls.HyperLink
+    ''' <summary>
+    ''' ReportForm control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ReportForm As Global.System.Web.UI.WebControls.Panel
 
-	''' <summary>
-	''' RequestUrl2 control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected RequestUrl2 As Global.System.Web.UI.WebControls.HyperLink
+    ''' <summary>
+    ''' DescriptionTextBox control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected DescriptionTextBox As Global.System.Web.UI.WebControls.TextBox
 
-	''' <summary>
-	''' Details control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected Details As Global.System.Web.UI.WebControls.Panel
-
-	''' <summary>
-	''' DetailsText control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected DetailsText As Global.System.Web.UI.WebControls.Literal
-
-	''' <summary>
-	''' ReportForm control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ReportForm As Global.System.Web.UI.WebControls.Panel
-
-	''' <summary>
-	''' DescriptionTextBox control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected DescriptionTextBox As Global.System.Web.UI.WebControls.TextBox
-
-	''' <summary>
-	''' ReportButton control.
-	''' </summary>
-	''' <remarks>
-	''' Auto-generated field.
-	''' To modify move field declaration from designer file to code-behind file.
-	''' </remarks>
-	Protected ReportButton As Global.System.Web.UI.WebControls.Button
+    ''' <summary>
+    ''' ReportButton control.
+    ''' </summary>
+    ''' <remarks>
+    ''' Auto-generated field.
+    ''' To modify move field declaration from designer file to code-behind file.
+    ''' </remarks>
+    Protected ReportButton As Global.System.Web.UI.WebControls.Button
 End Class

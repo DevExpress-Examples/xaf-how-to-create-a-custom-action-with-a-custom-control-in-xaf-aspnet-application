@@ -1,1 +1,1 @@
-<%@ Application Language="vb" CodeBehind="Global.asax.vb" Inherits="Solution28.Web.Global"%>
+<%@ Application Language="VB" CodeBehind="Global.asax.vb" Inherits="Solution28.Web.Global"%>
