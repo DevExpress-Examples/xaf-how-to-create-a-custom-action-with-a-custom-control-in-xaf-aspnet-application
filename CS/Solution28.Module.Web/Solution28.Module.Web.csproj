@@ -134,7 +134,7 @@
   </Target>
   -->
   <ItemGroup>
-    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.3">
+    <PackageReference Include="DevExpress.ExpressApp.CodeAnalysis" Version="24.2.4">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
     </PackageReference>
